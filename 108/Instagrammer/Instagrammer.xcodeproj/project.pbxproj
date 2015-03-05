@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA4C1EB1A72690200E2DEDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C1EA1A72690200E2DEDF /* AppDelegate.swift */; };
+		BFA4C1EE1A72690200E2DEDF /* Instagrammer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C1EC1A72690200E2DEDF /* Instagrammer.xcdatamodeld */; };
+		BFA4C1F01A72690200E2DEDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C1EF1A72690200E2DEDF /* ViewController.swift */; };
+		BFA4C1F31A72690200E2DEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C1F11A72690200E2DEDF /* Main.storyboard */; };
+		BFA4C1F51A72690200E2DEDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C1F41A72690200E2DEDF /* Images.xcassets */; };
+		BFA4C1F81A72690200E2DEDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFA4C1F61A72690200E2DEDF /* LaunchScreen.xib */; };
+		BFA4C2041A72690200E2DEDF /* InstagrammerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA4C2031A72690200E2DEDF /* InstagrammerTests.swift */; };
+		BFA4C2121A72696000E2DEDF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C20D1A72696000E2DEDF /* Bolts.framework */; };
+		BFA4C2131A72696000E2DEDF /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C20E1A72696000E2DEDF /* Parse.framework */; };
+		BFA4C2141A72696000E2DEDF /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C20F1A72696000E2DEDF /* ParseCrashReporting.framework */; };
+		BFA4C2151A72696000E2DEDF /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C2101A72696000E2DEDF /* ParseFacebookUtils.framework */; };
+		BFA4C2161A72696000E2DEDF /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C2111A72696000E2DEDF /* ParseUI.framework */; };
+		BFA4C2211A7269ED00E2DEDF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C2171A7269ED00E2DEDF /* AudioToolbox.framework */; };
+		BFA4C2221A7269ED00E2DEDF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C2181A7269ED00E2DEDF /* CFNetwork.framework */; };
+		BFA4C2231A7269ED00E2DEDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C2191A7269ED00E2DEDF /* CoreGraphics.framework */; };
+		BFA4C2241A7269ED00E2DEDF /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C21A1A7269ED00E2DEDF /* libsqlite3.0.dylib */; };
+		BFA4C2251A7269ED00E2DEDF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C21B1A7269ED00E2DEDF /* libz.dylib */; };
+		BFA4C2261A7269ED00E2DEDF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C21C1A7269ED00E2DEDF /* MobileCoreServices.framework */; };
+		BFA4C2271A7269ED00E2DEDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C21D1A7269ED00E2DEDF /* QuartzCore.framework */; };
+		BFA4C2281A7269ED00E2DEDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C21E1A7269ED00E2DEDF /* Security.framework */; };
+		BFA4C2291A7269ED00E2DEDF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C21F1A7269ED00E2DEDF /* StoreKit.framework */; };
+		BFA4C22A1A7269ED00E2DEDF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA4C2201A7269ED00E2DEDF /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA4C1FE1A72690200E2DEDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA4C1DD1A72690200E2DEDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA4C1E41A72690200E2DEDF;
+			remoteInfo = Instagrammer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA4C1E51A72690200E2DEDF /* Instagrammer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrammer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA4C1E91A72690200E2DEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA4C1EA1A72690200E2DEDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFA4C1ED1A72690200E2DEDF /* Instagrammer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Instagrammer.xcdatamodel; sourceTree = "<group>"; };
+		BFA4C1EF1A72690200E2DEDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFA4C1F21A72690200E2DEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFA4C1F41A72690200E2DEDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFA4C1F71A72690200E2DEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFA4C1FD1A72690200E2DEDF /* InstagrammerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagrammerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA4C2021A72690200E2DEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA4C2031A72690200E2DEDF /* InstagrammerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagrammerTests.swift; sourceTree = "<group>"; };
+		BFA4C20D1A72696000E2DEDF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BFA4C20E1A72696000E2DEDF /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BFA4C20F1A72696000E2DEDF /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		BFA4C2101A72696000E2DEDF /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		BFA4C2111A72696000E2DEDF /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		BFA4C2171A7269ED00E2DEDF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFA4C2181A7269ED00E2DEDF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFA4C2191A7269ED00E2DEDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFA4C21A1A7269ED00E2DEDF /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		BFA4C21B1A7269ED00E2DEDF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BFA4C21C1A7269ED00E2DEDF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BFA4C21D1A7269ED00E2DEDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFA4C21E1A7269ED00E2DEDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFA4C21F1A7269ED00E2DEDF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BFA4C2201A7269ED00E2DEDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFA4C22B1A72739800E2DEDF /* Instagrammer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instagrammer-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA4C1E21A72690200E2DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA4C2211A7269ED00E2DEDF /* AudioToolbox.framework in Frameworks */,
+				BFA4C2221A7269ED00E2DEDF /* CFNetwork.framework in Frameworks */,
+				BFA4C2231A7269ED00E2DEDF /* CoreGraphics.framework in Frameworks */,
+				BFA4C2241A7269ED00E2DEDF /* libsqlite3.0.dylib in Frameworks */,
+				BFA4C2251A7269ED00E2DEDF /* libz.dylib in Frameworks */,
+				BFA4C2261A7269ED00E2DEDF /* MobileCoreServices.framework in Frameworks */,
+				BFA4C2271A7269ED00E2DEDF /* QuartzCore.framework in Frameworks */,
+				BFA4C2281A7269ED00E2DEDF /* Security.framework in Frameworks */,
+				BFA4C2291A7269ED00E2DEDF /* StoreKit.framework in Frameworks */,
+				BFA4C22A1A7269ED00E2DEDF /* SystemConfiguration.framework in Frameworks */,
+				BFA4C2131A72696000E2DEDF /* Parse.framework in Frameworks */,
+				BFA4C2141A72696000E2DEDF /* ParseCrashReporting.framework in Frameworks */,
+				BFA4C2161A72696000E2DEDF /* ParseUI.framework in Frameworks */,
+				BFA4C2151A72696000E2DEDF /* ParseFacebookUtils.framework in Frameworks */,
+				BFA4C2121A72696000E2DEDF /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA4C1FA1A72690200E2DEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA4C1DC1A72690200E2DEDF = {
+			isa = PBXGroup;
+			children = (
+				BFA4C2171A7269ED00E2DEDF /* AudioToolbox.framework */,
+				BFA4C2181A7269ED00E2DEDF /* CFNetwork.framework */,
+				BFA4C2191A7269ED00E2DEDF /* CoreGraphics.framework */,
+				BFA4C21A1A7269ED00E2DEDF /* libsqlite3.0.dylib */,
+				BFA4C21B1A7269ED00E2DEDF /* libz.dylib */,
+				BFA4C21C1A7269ED00E2DEDF /* MobileCoreServices.framework */,
+				BFA4C21D1A7269ED00E2DEDF /* QuartzCore.framework */,
+				BFA4C21E1A7269ED00E2DEDF /* Security.framework */,
+				BFA4C21F1A7269ED00E2DEDF /* StoreKit.framework */,
+				BFA4C2201A7269ED00E2DEDF /* SystemConfiguration.framework */,
+				BFA4C20D1A72696000E2DEDF /* Bolts.framework */,
+				BFA4C20E1A72696000E2DEDF /* Parse.framework */,
+				BFA4C20F1A72696000E2DEDF /* ParseCrashReporting.framework */,
+				BFA4C2101A72696000E2DEDF /* ParseFacebookUtils.framework */,
+				BFA4C2111A72696000E2DEDF /* ParseUI.framework */,
+				BFA4C1E71A72690200E2DEDF /* Instagrammer */,
+				BFA4C2001A72690200E2DEDF /* InstagrammerTests */,
+				BFA4C1E61A72690200E2DEDF /* Products */,
+				BFA4C22B1A72739800E2DEDF /* Instagrammer-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA4C1E61A72690200E2DEDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4C1E51A72690200E2DEDF /* Instagrammer.app */,
+				BFA4C1FD1A72690200E2DEDF /* InstagrammerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA4C1E71A72690200E2DEDF /* Instagrammer */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4C1EA1A72690200E2DEDF /* AppDelegate.swift */,
+				BFA4C1EF1A72690200E2DEDF /* ViewController.swift */,
+				BFA4C1F11A72690200E2DEDF /* Main.storyboard */,
+				BFA4C1F41A72690200E2DEDF /* Images.xcassets */,
+				BFA4C1F61A72690200E2DEDF /* LaunchScreen.xib */,
+				BFA4C1EC1A72690200E2DEDF /* Instagrammer.xcdatamodeld */,
+				BFA4C1E81A72690200E2DEDF /* Supporting Files */,
+			);
+			path = Instagrammer;
+			sourceTree = "<group>";
+		};
+		BFA4C1E81A72690200E2DEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4C1E91A72690200E2DEDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA4C2001A72690200E2DEDF /* InstagrammerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4C2031A72690200E2DEDF /* InstagrammerTests.swift */,
+				BFA4C2011A72690200E2DEDF /* Supporting Files */,
+			);
+			path = InstagrammerTests;
+			sourceTree = "<group>";
+		};
+		BFA4C2011A72690200E2DEDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4C2021A72690200E2DEDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA4C1E41A72690200E2DEDF /* Instagrammer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA4C2071A72690200E2DEDF /* Build configuration list for PBXNativeTarget "Instagrammer" */;
+			buildPhases = (
+				BFA4C1E11A72690200E2DEDF /* Sources */,
+				BFA4C1E21A72690200E2DEDF /* Frameworks */,
+				BFA4C1E31A72690200E2DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instagrammer;
+			productName = Instagrammer;
+			productReference = BFA4C1E51A72690200E2DEDF /* Instagrammer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA4C1FC1A72690200E2DEDF /* InstagrammerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA4C20A1A72690200E2DEDF /* Build configuration list for PBXNativeTarget "InstagrammerTests" */;
+			buildPhases = (
+				BFA4C1F91A72690200E2DEDF /* Sources */,
+				BFA4C1FA1A72690200E2DEDF /* Frameworks */,
+				BFA4C1FB1A72690200E2DEDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA4C1FF1A72690200E2DEDF /* PBXTargetDependency */,
+			);
+			name = InstagrammerTests;
+			productName = InstagrammerTests;
+			productReference = BFA4C1FD1A72690200E2DEDF /* InstagrammerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA4C1DD1A72690200E2DEDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = dataclones;
+				TargetAttributes = {
+					BFA4C1E41A72690200E2DEDF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BFA4C1FC1A72690200E2DEDF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BFA4C1E41A72690200E2DEDF;
+					};
+				};
+			};
+			buildConfigurationList = BFA4C1E01A72690200E2DEDF /* Build configuration list for PBXProject "Instagrammer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA4C1DC1A72690200E2DEDF;
+			productRefGroup = BFA4C1E61A72690200E2DEDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA4C1E41A72690200E2DEDF /* Instagrammer */,
+				BFA4C1FC1A72690200E2DEDF /* InstagrammerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA4C1E31A72690200E2DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA4C1F31A72690200E2DEDF /* Main.storyboard in Resources */,
+				BFA4C1F81A72690200E2DEDF /* LaunchScreen.xib in Resources */,
+				BFA4C1F51A72690200E2DEDF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA4C1FB1A72690200E2DEDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA4C1E11A72690200E2DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA4C1F01A72690200E2DEDF /* ViewController.swift in Sources */,
+				BFA4C1EB1A72690200E2DEDF /* AppDelegate.swift in Sources */,
+				BFA4C1EE1A72690200E2DEDF /* Instagrammer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA4C1F91A72690200E2DEDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA4C2041A72690200E2DEDF /* InstagrammerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA4C1FF1A72690200E2DEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA4C1E41A72690200E2DEDF /* Instagrammer */;
+			targetProxy = BFA4C1FE1A72690200E2DEDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFA4C1F11A72690200E2DEDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA4C1F21A72690200E2DEDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFA4C1F61A72690200E2DEDF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA4C1F71A72690200E2DEDF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA4C2051A72690200E2DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA4C2061A72690200E2DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA4C2081A72690200E2DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Instagrammer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instagrammer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFA4C2091A72690200E2DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Instagrammer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Instagrammer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BFA4C20B1A72690200E2DEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstagrammerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagrammer.app/Instagrammer";
+			};
+			name = Debug;
+		};
+		BFA4C20C1A72690200E2DEDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstagrammerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagrammer.app/Instagrammer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA4C1E01A72690200E2DEDF /* Build configuration list for PBXProject "Instagrammer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA4C2051A72690200E2DEDF /* Debug */,
+				BFA4C2061A72690200E2DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA4C2071A72690200E2DEDF /* Build configuration list for PBXNativeTarget "Instagrammer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA4C2081A72690200E2DEDF /* Debug */,
+				BFA4C2091A72690200E2DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BFA4C20A1A72690200E2DEDF /* Build configuration list for PBXNativeTarget "InstagrammerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA4C20B1A72690200E2DEDF /* Debug */,
+				BFA4C20C1A72690200E2DEDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BFA4C1EC1A72690200E2DEDF /* Instagrammer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BFA4C1ED1A72690200E2DEDF /* Instagrammer.xcdatamodel */,
+			);
+			currentVersion = BFA4C1ED1A72690200E2DEDF /* Instagrammer.xcdatamodel */;
+			path = Instagrammer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFA4C1DD1A72690200E2DEDF /* Project object */;
+}

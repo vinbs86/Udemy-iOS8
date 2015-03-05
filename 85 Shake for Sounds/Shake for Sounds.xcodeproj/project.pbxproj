@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5EB3411A63EC6200213ED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5EB3401A63EC6200213ED5 /* AppDelegate.swift */; };
+		BF5EB3431A63EC6200213ED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5EB3421A63EC6200213ED5 /* ViewController.swift */; };
+		BF5EB3461A63EC6200213ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5EB3441A63EC6200213ED5 /* Main.storyboard */; };
+		BF5EB3481A63EC6200213ED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5EB3471A63EC6200213ED5 /* Images.xcassets */; };
+		BF5EB34B1A63EC6200213ED5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5EB3491A63EC6200213ED5 /* LaunchScreen.xib */; };
+		BF5EB3571A63EC6200213ED5 /* Shake_for_SoundsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5EB3561A63EC6200213ED5 /* Shake_for_SoundsTests.swift */; };
+		BF5EB3611A63EC6E00213ED5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5EB3601A63EC6E00213ED5 /* AVFoundation.framework */; };
+		BF7262741A6423CF00CB5D57 /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF72626C1A6423CF00CB5D57 /* bean.mp3 */; };
+		BF7262751A6423CF00CB5D57 /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF72626D1A6423CF00CB5D57 /* belch.mp3 */; };
+		BF7262761A6423CF00CB5D57 /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF72626E1A6423CF00CB5D57 /* giggle.mp3 */; };
+		BF7262771A6423CF00CB5D57 /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF72626F1A6423CF00CB5D57 /* pew.mp3 */; };
+		BF7262781A6423CF00CB5D57 /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF7262701A6423CF00CB5D57 /* pig.mp3 */; };
+		BF7262791A6423CF00CB5D57 /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF7262711A6423CF00CB5D57 /* snore.mp3 */; };
+		BF72627A1A6423CF00CB5D57 /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF7262721A6423CF00CB5D57 /* static.mp3 */; };
+		BF72627B1A6423CF00CB5D57 /* fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF7262731A6423CF00CB5D57 /* fart.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5EB3511A63EC6200213ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF5EB3331A63EC6200213ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5EB33A1A63EC6200213ED5;
+			remoteInfo = "Shake for Sounds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF5EB33B1A63EC6200213ED5 /* Shake for Sounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake for Sounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5EB33F1A63EC6200213ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5EB3401A63EC6200213ED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF5EB3421A63EC6200213ED5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF5EB3451A63EC6200213ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF5EB3471A63EC6200213ED5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF5EB34A1A63EC6200213ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF5EB3501A63EC6200213ED5 /* Shake for SoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shake for SoundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5EB3551A63EC6200213ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5EB3561A63EC6200213ED5 /* Shake_for_SoundsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake_for_SoundsTests.swift; sourceTree = "<group>"; };
+		BF5EB3601A63EC6E00213ED5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BF72626C1A6423CF00CB5D57 /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		BF72626D1A6423CF00CB5D57 /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		BF72626E1A6423CF00CB5D57 /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		BF72626F1A6423CF00CB5D57 /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		BF7262701A6423CF00CB5D57 /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		BF7262711A6423CF00CB5D57 /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		BF7262721A6423CF00CB5D57 /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		BF7262731A6423CF00CB5D57 /* fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5EB3381A63EC6200213ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB3611A63EC6E00213ED5 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5EB34D1A63EC6200213ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5EB3321A63EC6200213ED5 = {
+			isa = PBXGroup;
+			children = (
+				BF5EB3601A63EC6E00213ED5 /* AVFoundation.framework */,
+				BF5EB33D1A63EC6200213ED5 /* Shake for Sounds */,
+				BF5EB3531A63EC6200213ED5 /* Shake for SoundsTests */,
+				BF5EB33C1A63EC6200213ED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5EB33C1A63EC6200213ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB33B1A63EC6200213ED5 /* Shake for Sounds.app */,
+				BF5EB3501A63EC6200213ED5 /* Shake for SoundsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5EB33D1A63EC6200213ED5 /* Shake for Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB3401A63EC6200213ED5 /* AppDelegate.swift */,
+				BF5EB3421A63EC6200213ED5 /* ViewController.swift */,
+				BF5EB3441A63EC6200213ED5 /* Main.storyboard */,
+				BF72626B1A6423CF00CB5D57 /* sounds */,
+				BF5EB3471A63EC6200213ED5 /* Images.xcassets */,
+				BF5EB3491A63EC6200213ED5 /* LaunchScreen.xib */,
+				BF5EB33E1A63EC6200213ED5 /* Supporting Files */,
+			);
+			path = "Shake for Sounds";
+			sourceTree = "<group>";
+		};
+		BF5EB33E1A63EC6200213ED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB33F1A63EC6200213ED5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF5EB3531A63EC6200213ED5 /* Shake for SoundsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB3561A63EC6200213ED5 /* Shake_for_SoundsTests.swift */,
+				BF5EB3541A63EC6200213ED5 /* Supporting Files */,
+			);
+			path = "Shake for SoundsTests";
+			sourceTree = "<group>";
+		};
+		BF5EB3541A63EC6200213ED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EB3551A63EC6200213ED5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF72626B1A6423CF00CB5D57 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BF72626C1A6423CF00CB5D57 /* bean.mp3 */,
+				BF7262731A6423CF00CB5D57 /* fart.mp3 */,
+				BF72626D1A6423CF00CB5D57 /* belch.mp3 */,
+				BF72626E1A6423CF00CB5D57 /* giggle.mp3 */,
+				BF72626F1A6423CF00CB5D57 /* pew.mp3 */,
+				BF7262701A6423CF00CB5D57 /* pig.mp3 */,
+				BF7262711A6423CF00CB5D57 /* snore.mp3 */,
+				BF7262721A6423CF00CB5D57 /* static.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5EB33A1A63EC6200213ED5 /* Shake for Sounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5EB35A1A63EC6200213ED5 /* Build configuration list for PBXNativeTarget "Shake for Sounds" */;
+			buildPhases = (
+				BF5EB3371A63EC6200213ED5 /* Sources */,
+				BF5EB3381A63EC6200213ED5 /* Frameworks */,
+				BF5EB3391A63EC6200213ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shake for Sounds";
+			productName = "Shake for Sounds";
+			productReference = BF5EB33B1A63EC6200213ED5 /* Shake for Sounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5EB34F1A63EC6200213ED5 /* Shake for SoundsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5EB35D1A63EC6200213ED5 /* Build configuration list for PBXNativeTarget "Shake for SoundsTests" */;
+			buildPhases = (
+				BF5EB34C1A63EC6200213ED5 /* Sources */,
+				BF5EB34D1A63EC6200213ED5 /* Frameworks */,
+				BF5EB34E1A63EC6200213ED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5EB3521A63EC6200213ED5 /* PBXTargetDependency */,
+			);
+			name = "Shake for SoundsTests";
+			productName = "Shake for SoundsTests";
+			productReference = BF5EB3501A63EC6200213ED5 /* Shake for SoundsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5EB3331A63EC6200213ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = dataclones;
+				TargetAttributes = {
+					BF5EB33A1A63EC6200213ED5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BF5EB34F1A63EC6200213ED5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BF5EB33A1A63EC6200213ED5;
+					};
+				};
+			};
+			buildConfigurationList = BF5EB3361A63EC6200213ED5 /* Build configuration list for PBXProject "Shake for Sounds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF5EB3321A63EC6200213ED5;
+			productRefGroup = BF5EB33C1A63EC6200213ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5EB33A1A63EC6200213ED5 /* Shake for Sounds */,
+				BF5EB34F1A63EC6200213ED5 /* Shake for SoundsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5EB3391A63EC6200213ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7262741A6423CF00CB5D57 /* bean.mp3 in Resources */,
+				BF7262791A6423CF00CB5D57 /* snore.mp3 in Resources */,
+				BF7262761A6423CF00CB5D57 /* giggle.mp3 in Resources */,
+				BF72627B1A6423CF00CB5D57 /* fart.mp3 in Resources */,
+				BF7262751A6423CF00CB5D57 /* belch.mp3 in Resources */,
+				BF72627A1A6423CF00CB5D57 /* static.mp3 in Resources */,
+				BF5EB3461A63EC6200213ED5 /* Main.storyboard in Resources */,
+				BF5EB34B1A63EC6200213ED5 /* LaunchScreen.xib in Resources */,
+				BF7262781A6423CF00CB5D57 /* pig.mp3 in Resources */,
+				BF5EB3481A63EC6200213ED5 /* Images.xcassets in Resources */,
+				BF7262771A6423CF00CB5D57 /* pew.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5EB34E1A63EC6200213ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5EB3371A63EC6200213ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB3431A63EC6200213ED5 /* ViewController.swift in Sources */,
+				BF5EB3411A63EC6200213ED5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5EB34C1A63EC6200213ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5EB3571A63EC6200213ED5 /* Shake_for_SoundsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5EB3521A63EC6200213ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5EB33A1A63EC6200213ED5 /* Shake for Sounds */;
+			targetProxy = BF5EB3511A63EC6200213ED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF5EB3441A63EC6200213ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5EB3451A63EC6200213ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF5EB3491A63EC6200213ED5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5EB34A1A63EC6200213ED5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5EB3581A63EC6200213ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF5EB3591A63EC6200213ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5EB35B1A63EC6200213ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shake for Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF5EB35C1A63EC6200213ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Shake for Sounds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF5EB35E1A63EC6200213ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shake for SoundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake for Sounds.app/Shake for Sounds";
+			};
+			name = Debug;
+		};
+		BF5EB35F1A63EC6200213ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Shake for SoundsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shake for Sounds.app/Shake for Sounds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5EB3361A63EC6200213ED5 /* Build configuration list for PBXProject "Shake for Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5EB3581A63EC6200213ED5 /* Debug */,
+				BF5EB3591A63EC6200213ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5EB35A1A63EC6200213ED5 /* Build configuration list for PBXNativeTarget "Shake for Sounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5EB35B1A63EC6200213ED5 /* Debug */,
+				BF5EB35C1A63EC6200213ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5EB35D1A63EC6200213ED5 /* Build configuration list for PBXNativeTarget "Shake for SoundsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5EB35E1A63EC6200213ED5 /* Debug */,
+				BF5EB35F1A63EC6200213ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF5EB3331A63EC6200213ED5 /* Project object */;
+}
